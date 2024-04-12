@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+h1{
+    color: aliceblue;
+   
+
+
+
+}
+
+img{
+    width: 24%;
+}
+
+p{
+color: aliceblue;
+
+}

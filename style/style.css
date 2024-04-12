@@ -1,0 +1,37 @@
+body{
+    background-image: url(../assets/backgroundImage.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center ;
+    background-attachment: fixed;
+    
+    }
+
+    /* Estilos para o cabeçalho (header) */
+header {
+    display: flex;
+    justify-content: space-between; /* Alinha os elementos horizontalmente com espaço entre eles */
+    margin: 1%; /* Margem externa de 1% para se adaptar melhor a diferentes tamanhos de tela */
+    padding: 1%; /* Preenchimento interno de 1% */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+  }
+  
+  /* Estilos para a imagem dentro do cabeçalho */
+  .img {
+    width: 6%; /* Largura da imagem (aumentada para 10% para se ajustar melhor a diferentes dispositivos) */
+  }
+  
+  /* Estilos para o contêiner da lista de itens */
+  .lista_container {
+    display: flex; /* Utiliza flexbox para organizar os itens */
+    gap: 2vw; /* Espaçamento entre os itens da lista (usando viewport width para uma unidade responsiva) */
+  }
+  
+  /* Estilos para os itens da lista dentro do contêiner */
+  .lista__item a {
+    text-decoration: none; /* Remove decoração de link (sublinhado) */
+    font-size: 18px; /* Tamanho da fonte dos links (usando viewport width para uma unidade responsiva) */
+    font-family: Verdana, sans-serif; /* Tipo de fonte */
+    color: chartreuse; /* Cor do texto (verde limão) */
+  }
+  

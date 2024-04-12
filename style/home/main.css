@@ -1,0 +1,40 @@
+/* Estilos para o conteúdo principal */
+.conteudo_principal {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a linha abaixo quando não há espaço suficiente */
+    justify-content: space-between;
+    gap: 5%; /* Espaço entre os elementos (usando porcentagem para uma unidade responsiva) */
+    margin-top: 5vh; /* Margem superior responsiva usando viewport height */
+    margin-bottom: 5vh; /* Margem inferior responsiva usando viewport height */
+    align-items: center;
+  }
+  
+  /* Estilos para as seções dentro do conteúdo principal */
+  .conteudo_principal section {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    padding: 2vw; /* Espaçamento interno (usando viewport width para uma unidade responsiva) */
+    margin: 5vh 2.5vw 0 5vw; /* Margem responsiva usando viewport units */
+  }
+  
+  /* Estilos para o título */
+  .titulo {
+    font-size: 3vw; /* Tamanho da fonte responsiva (usando viewport width para uma unidade responsiva) */
+    font-family: 'Arial', sans-serif; /* Tipo de fonte */
+    color: #fdf9f9; /* Cor do texto (branco) */
+    text-align: left; /* Alinhamento à esquerda */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 0.2vw; /* Espaçamento entre letras responsivo */
+    margin-bottom: 2vh; /* Espaçamento inferior responsivo */
+    text-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.3); /* Sombra do texto responsiva */
+  }
+  
+  /* Estilos para a descrição */
+  .descricao {
+    font-size: 1.5vw; /* Tamanho da fonte responsiva (usando viewport width para uma unidade responsiva) */
+    font-family: 'Helvetica', sans-serif; /* Tipo de fonte */
+    color: #fdf9f9; /* Cor do texto (branco) */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
+    text-align: justify; /* Alinhamento justificado */
+    margin-bottom: 1vh; /* Espaçamento inferior responsivo */
+  }
+  
